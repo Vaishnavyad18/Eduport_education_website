@@ -1,0 +1,423 @@
+body{
+    font-family: monteserrat;
+}
+.section-padding{
+    padding: 100px 0px;
+}
+.section-header{
+    margin-bottom: 50px;
+}
+.section-header h2{
+    font-weight: 700;
+    font-size: 80px;
+}
+span{
+    color: rgb(8, 47, 41);
+}
+
+.navbar-nav{
+    font-size: 15px;
+    font-weight: 900;
+}
+.nav-item a{color: rgb(78, 165, 142);}
+.navbar-light .navbar-brand{
+    color: rgb(78, 165, 142);
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.landing_section {
+    min-height: 100vh;
+    
+}
+
+.landing_container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    padding-top: 85px;
+    min-height: calc(100vh - 85px);
+    justify-content: space-between;
+    
+    
+}
+
+.landing_container .text_section h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.landing_container .text_section h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    margin-top: 38px;
+}
+
+.landing_container .text_section p {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 24px 0 40px;
+    max-width: 70%;
+}
+
+.landing_container .landing_section_button {
+    display: flex;
+    gap: 24px;
+}
+
+.landing_container .landing_section_button .button {
+    padding: 8px 28px;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    
+    background-color: rgb(26, 88, 88);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+.landing_container .landing_section_button .button:last-child {
+    color: white;
+    border-color: transparent;
+    
+}
+
+.landing_container .landing_section_button .button:first-child:hover {
+    color: white;
+    background: transparent;
+    border-color: white;
+}
+
+.landing_container .landing_section_button .button:last-child:hover {
+    color: white;
+    background: transparent;
+    border-color: white;
+}
+
+.landing_container .image_section {
+    max-width: 45%;
+}
+
+.landing_container .image_section img {
+    width: 100%;
+}
+.about-img img{
+    width: 100%;
+}
+.about h3{
+    color: rgb(78, 165, 142);
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-text p{
+    color: black;
+    line-height: 1.8;
+    font-size: 18px;
+    text-align: left;
+}
+.about-text button{
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    background: rgb(78, 165, 142);
+    font-weight: 600; border: none;
+    border-radius: 5px;color: wheat;
+}
+.status{
+    background-color: rgb(9, 97, 73);
+    color: white;
+}
+
+.single-number i{
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.single-number h3{
+    font-weight: 700;
+}
+.single-service h3{
+    color: rgb(78, 165, 142);
+    font-size: 25px;
+    font-weight: 700;
+}
+.single-service{
+    padding: 30px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    background-color: white;
+    }
+    .single-service i{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: rgb(78, 165, 142);
+    
+    }
+    .single-service button{
+    background: rgb(78, 165, 142);
+    padding: 10px 30px;
+    color : wheat;
+    border-radius: 5px;
+    }
+    
+    .single-service:hover{
+    background-color: rgb(9, 97, 73);
+    color: white;
+    }
+    .single-service:hover i{
+    color: white;}
+    .single-service:hover button{
+    background: white;
+    color:rgb(78, 165, 142);}
+  .single-faculty{
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.4);
+  }  
+  .single-faculty h3{
+    color: rgb(78, 165, 142);
+    font-size: 40px;
+    font-weight: 700;
+}
+  .single-faculty .card-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(78, 165, 142);
+  }
+  .single-faculty .socials i{
+    margin: 0 15px;
+    color:rgb(6, 69, 80) ;
+  }
+  .single-faculty .card-img-top{padding: 50px 50px 10px 50px;}
+  .single-placement h3{
+    color: rgb(78, 165, 142);
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+  .single-placement .card a{
+    background: rgb(78, 165, 142);;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: wheat;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .single-placement .card-title{
+    font-weight: 600;
+    color: rgb(78, 165, 142);
+    font-size: 25px;
+  }
+  .single-placement .card-img-top{ padding: 50px 50px 10px 50px;}
+  .single-course h3{
+    color: rgb(78, 165, 142);
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+  .single-course .card a{
+    background: rgb(78, 165, 142);;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: wheat;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .single-course .card-title{
+    font-weight: 600;
+    color: rgb(78, 165, 142);
+    font-size: 25px;
+  }
+  .single-course .card-img-top{padding: 30px;}
+  .quote{
+    background: rgb(9, 97, 73);
+    color: white;
+  }
+  .single-quote p{
+    font-size: 20px;
+  }
+  .single-quote i{
+    font-size: 40px;
+    padding: 0px 15px;  
+  }
+.single-quote h5{font-weight: 600; ;}
+.left-contact{
+    background: rgb(78, 165, 142);
+    padding: 60px;
+    color: white;
+}
+.left-contact h4{margin-bottom: 20px; color: white;
+}
+.single-contact h3{
+    color: rgb(78, 165, 142);
+    font-size: 40px;
+    font-weight: 700;
+}
+label{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;
+    color: rgb(78, 165, 142);
+}
+.contact .btn{
+  background: rgb(78, 165, 142);
+  color: wheat;
+  display: inline-block;
+  margin-top: 30px;
+}
+.footer{
+    background: transparent;
+    padding: 35px 0px;
+    color: rgb(6, 69, 80);
+}
+
+.socials i{
+font-size: 25px;
+margin: 0 15px;
+}
+.socials:hover{color: rgb(4, 36, 4);} 
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-collapse{
+        background: white;
+    }
+    .navbar-collapse .nav-item .nav-link{
+        color: black;
+    }
+    .landing_container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 32px;
+        
+        
+    }
+
+    .landing_container .image_section {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .landing_container .image_section img {
+        max-width: 90%;
+        align-items: center;
+    }
+
+    .landing_container .text_section {
+        max-width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landing_container .text_section p {
+        max-width: 100%;
+    }
+
+    .about-img img{
+        width: 100%;
+    }
+    .about-text{
+        margin-top: 30px;
+    }
+    .single-course
+    .single-service
+    .single-faculty
+    .single-placement
+    .single-contact
+    .single-number{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px){
+    .navbar-collapse .nav-item .nav-link{
+        color: black;
+    }
+    
+    
+    .navbar-collapse{
+        background: white;
+    }
+    .section-header h2{
+        font-size: 25px;
+    }
+    .landing_container {
+        justify-content: space-evenly;
+         width: 100%;
+         
+    }
+
+    .landing_container .text_section h2 {
+        font-size: 50px;
+    }
+
+    .landing_container .text_section h3 {
+        font-size: 25px;
+    }
+
+    .landing_container.image_section {
+        max-width: 100%;
+        text-align: center;
+    }
+
+
+    .landing_container.image_section img {
+        max-width: 80%;
+        align-items: center;
+    }
+
+    .landing_container .text_section p {
+        font-size: 15px;
+    }
+    .landing_container .landing_section_button {
+    display: flex;
+    gap: 20px;
+}
+
+.landing_container .landing_section_button .button {
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    
+    background-color: rgb(26, 88, 88);
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+    .about-img img{
+        width: 100%;
+    }
+    .about-text{
+        margin-top: 30px;
+    }
+    .single-course
+    .single-service
+    .single-faculty
+    .single-placement
+    .single-contact
+    .single-number{
+        margin-bottom: 30px;
+    }
+    .left-contact{
+        text-align: center;
+    }
+    .contact label{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .single-quote p{
+        font-size: 18px;
+    }
+    .single-quote i{
+        font-size: 25px;
+        padding: 0 5px;
+    }
+}
